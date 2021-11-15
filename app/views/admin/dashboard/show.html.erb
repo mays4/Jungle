@@ -4,20 +4,22 @@
   <table class="table table-bordered">
     <thead>
       <tr>
+      <th> category </th>
         <th> quantity</th>
-        <th> category </th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td> <%=  @quantity %> </th>
-        <td> <%=  @category_qty %></th>
-      </tr>
-      <tr>
-        <td> <%= link_to 'Products',  [:admin, :products] %></td>
-        <td><% Category.all.each do |category| %>
+      <td> <%= link_to 'Products',  [:admin, :products] %></td>
+        <td> <%=  @quantity %> </td>
+       
+        </tr>
+        <tr>
+        <td><%= link_to 'Categories',[:admin,:categories] %></li></td>
+        <!--- <td><% Category.all.each do |category| %>
           <li><%= link_to category.name, category %></li>
-        <% end %> </td>
+          <% end %> </td> --->
+          <td> <%=  @category_qty %></td>
       </tr>
    </tbody>
   </table>
