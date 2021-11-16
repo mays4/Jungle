@@ -1,2 +1,28 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin Dashboard</h1> 
+<!--- Find me in app/views/admin/dashboard/show.html.erb</p>--->
+<section class="orders-show">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+      <th> category </th>
+        <th> quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td> <%= link_to 'Products',  [:admin, :products] %></td>
+        <td> <%=  @quantity %> </td>
+       
+        </tr>
+        <tr>
+        <td><%= link_to 'Categories',[:admin,:categories] %></li></td>
+        <!--- <td><% Category.all.each do |category| %>
+          <li><%= link_to category.name, category %></li>
+          <% end %> </td> --->
+          <td> <%=  @category_qty %></td>
+      </tr>
+   </tbody>
+  </table>
+</section>
+
+

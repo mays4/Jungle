@@ -22,7 +22,6 @@ RSpec.describe Product, type: :model do
       @product.valid?
       # @product = Product.new(name: nil,price:200,quantity:12,category:@category)
       # @product.validate? 
-       expect(@product.errors[:name]).to include("can't be blank")
       # expect(@product).to_not be_valid
       expect(@product.errors[:name]).to include("can't be blank")
     end 
