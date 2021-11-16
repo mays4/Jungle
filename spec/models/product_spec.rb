@@ -5,11 +5,12 @@ RSpec.describe Product, type: :model do
  # test 
     it 'should contain category name' do
         @category = Category.new(name: 'Furniture')
-        # @category.save!
-        # @product = Product.new(name:'table',price: 17,quantity: 12,category: @category)
-        # @product.save!
-        # expect(@product.name).to be_present
-        expect(@category).to be_valid
+        @category.save!
+        @product = Product.new(name:'table',price: 17,quantity: 12,category: @category)
+        @product.save!
+        expect(@product).to be_present
+        expect(@category).to be_present
+        # expect(@category).to be_valid
 
         # expect(@product).to be_valid
     end
@@ -29,7 +30,7 @@ RSpec.describe Product, type: :model do
       @product = Product.new
       @product.price_cents = nil
 
-      
+
       @product.valid?
       #  @product = Product.new(name: "desk",price:,quantity:12,category:@category)
       #  @product.valid? 
