@@ -131,7 +131,9 @@ cat3.products.create!({
   quantity: 23,
   price: 2_483.75
 })
-Sale.create!({name: "X-max Sale!", starts_on: "Dec 5, 2021", ends_on:"Jan 3,2022",percent_off:50})
+Sale.create!({name: "X-max Sale!", starts_on: "Dec 5, 2021", ends_on: "Jan 3,2022",percent_off:50})
+Sale.create!({name: "March Break", starts_on: 30.days.ago, ends_on: 20.days.ago,percent_off:20})
+Sale.create!({name: "Active sale", starts_on: 6.days.ago, ends_on: 10.days.from_now,percent_off:15})
 
 
 puts "DONE!"
