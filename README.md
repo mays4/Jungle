@@ -13,9 +13,9 @@ In the home page vistor can see all products !["mainPage.png"](https://github.co
 - admin can see all categories in admin/categories page !["newCategory.png"](https://github.com/mays4/Jungle/blob/master/app/docs/newCategory.png?raw=true) 
 - admin can add Category!["new_category.png"](https://github.com/mays4/Jungle/blob/master/app/docs/new_category.png?raw=true)  
 - All sales (happend , active , upcomming) show in admin/sales !["sales.png"](https://github.com/mays4/Jungle/blob/master/app/docs/sales.png?raw=true)
-- when customer add to the cart all the items added ,will be in the cart !["My_cart.png"](hhttps://github.com/mays4/Jungle/blob/master/app/docs/My_cart.png?raw=true) and customer can process and buy!["cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/cart.png?raw=true)
+- when customer add to the cart all the items added ,will be in the cart!["My_cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/My_cart.png?raw=true) and customer can process and buy!["cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/cart.png?raw=true)
 - when delete all items from the cart, cart will be removed and message will show with link to home page !["empty_cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/empty_cart.png?raw=true)
-- when  customer make an order, he/she can see details of the order !["order.png"](https://github.com/mays4/Jungle/blob/master/app/docs/order.png?raw=true)
+- when customer make an order, he/she can see details of the order !["order.png"](https://github.com/mays4/Jungle/blob/master/app/docs/order.png?raw=true)
 -  Customer can choose to make an order without account or can singup !["singup.png"](https://github.com/mays4/Jungle/blob/master/app/docs/singup.png?raw=true) then customer can use there account and login !["login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/login.png?raw=true)
 
 - customer page when they are logged in !["user name when login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/user%20name%20when%20login.png?raw=true)
