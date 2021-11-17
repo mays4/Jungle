@@ -8,9 +8,9 @@ RSpec.describe Product, type: :model do
         @category.save!
         @product = Product.new(name:'table',price: 17,quantity: 12,category: @category)
         @product.save!
-         # expect(@product).to be_valid
+         # expect prodcut to present
         expect(@product).to be_present
-        # expect(@category).to be_valid
+        # expect category to present 
         expect(@category).to be_present
         
     end
