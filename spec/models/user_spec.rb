@@ -71,7 +71,7 @@ RSpec.describe User, type: :model do
     end
   end
   describe '.authenticate_with_credentials' do
-    # examples for this class method here
+
   it('should pass with vaild credentials')do
     subject.save
     result = User.authenticate_with_credentials('email@email.com','air123')
