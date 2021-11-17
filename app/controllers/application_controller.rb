@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
-  # For APIs, you may want to use :null_session instead.
+ 
   protect_from_forgery with: :exception
 
   private
@@ -28,16 +28,7 @@ class ApplicationController < ActionController::Base
     }
     cookies[:cart]
   end
-  # def flash_class(level)
-  #   bootstrap_alert_class = {
-  #     "success" => "alert-success",
-  #     "error" => "alert-danger",
-  #     "notice" => "alert-info",
-  #     "alert" => "alert-danger",
-  #     "warn" => "alert-warning"
-  #   }
-  #   bootstrap_alert_class[level]
-  # end
+
   protect_from_forgery with: :exception
 
   def current_user

@@ -4,20 +4,20 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 #Home Page :
 In the home page vistor can see all products !["mainPage.png"](https://github.com/mays4/Jungle/blob/master/app/docs/mainPage.png?raw=true)
-- When product is sold out it shows !["sold_Out.png"](https://github.com/mays4/Jungle/blob/master/app/docs/sold_Out.png?raw=true)
-- When go to admin/dashboard shows quantity  of the total product and catogory !["dashboard.png"](https://github.com/mays4/Jungle/blob/master/app/docs/dashboard.png?raw=true)
-- to access the admin/product name and password need to enter !["Auth.png"](https://github.com/mays4/Jungle/blob/master/app/docs/Auth.png?raw=true)
-- when acess all products show !["Admin_all.png"](https://github.com/mays4/Jungle/blob/master/app/docs/Admin_all.png?raw=true)
-- Admin can delete products and  creat new product !["new_Product.png"](https://github.com/mays4/Jungle/blob/master/app/docs/new_Product.png?raw=true) 
+- All products that are sold out will show red sign sold-out !["sold_Out.png"](https://github.com/mays4/Jungle/blob/master/app/docs/sold_Out.png?raw=true)
+- Admin can go to admin/dashboard and see  quantity  of the total products and catogories  !["dashboard.png"](https://github.com/mays4/Jungle/blob/master/app/docs/dashboard.png?raw=true)
+- to access the admin/product name and password are required !["Auth.png"](https://github.com/mays4/Jungle/blob/master/app/docs/Auth.png?raw=true)
+- admin can see all products in admin/product page  !["Admin_all.png"](https://github.com/mays4/Jungle/blob/master/app/docs/Admin_all.png?raw=true)
+- Admin can delete products and  creat new products !["new_Product.png"](https://github.com/mays4/Jungle/blob/master/app/docs/new_Product.png?raw=true) 
 - new product !["newproduct.png"](https://github.com/mays4/Jungle/blob/master/app/docs/newproduct.png?raw=true)
-- In the admin catogory all the Category !["newCategory.png"](https://github.com/mays4/Jungle/blob/master/app/docs/newCategory.png?raw=true) show and admin can add Category!["new_category.png"](https://github.com/mays4/Jungle/blob/master/app/docs/new_category.png?raw=true)  
+- admin can see all categories in admin/categories page !["newCategory.png"](https://github.com/mays4/Jungle/blob/master/app/docs/newCategory.png?raw=true) show and admin can add Category!["new_category.png"](https://github.com/mays4/Jungle/blob/master/app/docs/new_category.png?raw=true)  
 - In admin/sales all sales show !["sales.png"](https://github.com/mays4/Jungle/blob/master/app/docs/sales.png?raw=true)
 - when customer add to the cart all the items show !["My_cart.png"] (hhttps://github.com/mays4/Jungle/blob/master/app/docs/My_cart.png?raw=true) and can process and buy !["cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/cart.png?raw=true)
-- when delete itmes in the order message shows and link to home page !["empty_cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/empty_cart.png?raw=true)
+- when delete all itmes from the cart, cart will remove and message will show with  link to home page !["empty_cart.png"](https://github.com/mays4/Jungle/blob/master/app/docs/empty_cart.png?raw=true)
 - when order made details of the order show !["order.png"](https://github.com/mays4/Jungle/blob/master/app/docs/order.png?raw=true)
--  Customer can choose to make an order without account or singup !["singup.png"](https://github.com/mays4/Jungle/blob/master/app/docs/singup.png?raw=true) then  login !["login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/login.png?raw=true)
+-  Customer can choose to make an order without account or can singup !["singup.png"](https://github.com/mays4/Jungle/blob/master/app/docs/singup.png?raw=true) then customer can use there account and login !["login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/login.png?raw=true)
 
-- customer  when login !["user name when login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/user%20name%20when%20login.png?raw=true)
+- customer page when they are loggedin !["user name when login.png"](https://github.com/mays4/Jungle/blob/master/app/docs/user%20name%20when%20login.png?raw=true)
 
 
 ## Additional Steps for Apple M1 Machines
